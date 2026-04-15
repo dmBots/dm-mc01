@@ -1,26 +1,37 @@
 # DM-MC01
 
-## 概述
-- 这是 DM-MC01 控制板资料入口。
-- 本目录以原理图、3D 文件、模块资料、例程和说明书为主。
-- 未确认内容保持 `TBD` 或 `Translation pending`，不在此处硬补。
+#### 介绍
+DM MC-01 开发板资料
 
-## 文档 / 资源
-- [说明书/](说明书/)
-- [原理图/](原理图/)
-- [3D文件/](3D文件/)
-- [LCD模块/](LCD模块/)
-- [IMU BMI088模块/](IMU BMI088模块/)
-- [例程/](例程/)
-- [数据手册/](数据手册/)
-- [客户外壳文件/](客户外壳文件/)
-- [MC_Board管脚配置图.png](MC_Board管脚配置图.png)
+#### 软件架构
+软件架构说明
 
-## 快速开始
-- 本目录没有独立的快速开始步骤。
-- 如需资料，请先查看说明书和例程。
 
-## 状态
-- ZH: 主版
-- EN: Translation pending
-- TBD: 未确认信息保留空缺
+#### 安装教程
+
+1.  xxxx
+2.  xxxx
+3.  xxxx
+
+#### 使用说明
+
+1.  xxxx
+2.  xxxx
+3.  xxxx
+
+#### 参与贡献
+
+1.  Fork 本仓库
+2.  新建 Feat_xxx 分支
+3.  提交代码
+4.  新建 Pull Request
+
+
+#### 特技
+
+1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
+2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
+3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
+4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
+5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
+6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
