@@ -1,36 +1,24 @@
 # DM-MC01
 
-#### Description
-DM MC-01 开发板资料
+## Overview
+- Translation pending.
+- Use [README.md](README.md) as the current main entry for this subtree.
 
-#### Software Architecture
-Software architecture description
+## Documentation / Resources
+- [Manual/](说明书/)
+- [Schematics/](原理图/)
+- [3D Files/](3D文件/)
+- [LCD Module/](LCD模块/)
+- [IMU BMI088 Module/](IMU BMI088模块/)
+- [Examples/](例程/)
+- [Datasheets/](数据手册/)
+- [Customer Enclosure Files/](客户外壳文件/)
+- [MC_Board Pin Map](MC_Board管脚配置图.png)
 
-#### Installation
+## Quick Start
+- Translation pending.
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Instructions
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Contribution
-
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
-
-
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+## Status
+- EN: Translation pending
+- ZH: source material exists in this subtree
+- TBD: unverified details pending
