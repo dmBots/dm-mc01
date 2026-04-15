@@ -1,10 +1,12 @@
-# DM-MC01
+# DM-MC01 Control Board Documentation
 
 ## Overview
 - This folder is the documentation entry for the DM-MC01 control board.
 - Materials are organized by manuals, schematics, 3D files, module notes, and examples.
+- Workflow notes have been moved to [USAGE.md](USAGE.md); this README only keeps the entry and index.
 
 ## Documentation / Resources
+- [USAGE.md](USAGE.md)
 - [Manual/](说明书/)
 - [Schematics/](原理图/)
 - [3D Files/](3D文件/)
@@ -16,7 +18,7 @@
 - [MC_Board Pin Map.png](MC_Board管脚配置图.png)
 
 ## Quick Start
-- This folder does not define a separate quick-start flow; start with the manual and examples.
+- See [USAGE.md](USAGE.md) for the workflow notes and resource order.
 
 ## Status
 - EN: main entry

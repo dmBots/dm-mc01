@@ -2,9 +2,10 @@
 
 ## Overview
 - Supplemental English notes for the DM-MC01 control board.
-- The main entry is [`README.md`](README.md).
+- The workflow details live in [USAGE.md](USAGE.md), and the main entry is [README.md](README.md).
 
 ## Documentation / Resources
+- [USAGE.md](USAGE.md)
 - [Manual/](说明书/)
 - [Schematics/](原理图/)
 - [3D Files/](3D文件/)
