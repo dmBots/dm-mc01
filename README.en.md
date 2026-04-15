@@ -1,10 +1,11 @@
 # DM-MC01
 
 ## Overview
-- This folder is the documentation entry for the DM-MC01 control board.
-- Materials are organized by manuals, schematics, 3D files, module notes, and examples.
+- Supplemental English notes for the DM-MC01 control board.
+- The workflow details live in [USAGE.md](USAGE.md), and the main entry is [README.md](README.md).
 
 ## Documentation / Resources
+- [USAGE.md](USAGE.md)
 - [Manual/](说明书/)
 - [Schematics/](原理图/)
 - [3D Files/](3D文件/)
@@ -16,9 +17,9 @@
 - [MC_Board Pin Map.png](MC_Board管脚配置图.png)
 
 ## Quick Start
-- This folder does not define a separate quick-start flow.
+- Translation pending.
 
 ## Status
-- EN: Translation pending
+- EN: supplemental placeholder
 - ZH: source material exists in this subtree
 - TBD: unverified details remain pending
