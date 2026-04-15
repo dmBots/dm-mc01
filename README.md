@@ -1,26 +1,26 @@
 # DM-MC01
 
-## Overview
-- This folder is the documentation entry for the DM-MC01 controller board.
-- It keeps verified schematics, 3D files, module notes, examples, and the manual.
-- Unverified details stay marked as `TBD` or `Translation pending`.
+## 概述
+- 这是 DM-MC01 控制板资料入口。
+- 本目录以原理图、3D 文件、模块资料、例程和说明书为主。
+- 未确认内容保持 `TBD` 或 `Translation pending`，不在此处硬补。
 
-## Documentation / Resources
-- [Manual/](说明书/)
-- [Schematics/](原理图/)
-- [3D Files/](3D文件/)
-- [LCD Module/](LCD模块/)
-- [IMU BMI088 Module/](IMU BMI088模块/)
-- [Examples/](例程/)
-- [Datasheets/](数据手册/)
-- [Customer Enclosure Files/](客户外壳文件/)
-- [MC_Board Pin Map](MC_Board管脚配置图.png)
+## 文档 / 资源
+- [说明书/](说明书/)
+- [原理图/](原理图/)
+- [3D文件/](3D文件/)
+- [LCD模块/](LCD模块/)
+- [IMU BMI088模块/](IMU BMI088模块/)
+- [例程/](例程/)
+- [数据手册/](数据手册/)
+- [客户外壳文件/](客户外壳文件/)
+- [MC_Board管脚配置图.png](MC_Board管脚配置图.png)
 
-## Quick Start
-- This folder does not define a separate quick-start flow.
-- Start with the manual and example folder for the board overview.
+## 快速开始
+- 本目录没有独立的快速开始步骤。
+- 如需资料，请先查看说明书和例程。
 
-## Status
-- EN: main entry
-- ZH: source material exists in this subtree
-- TBD: unverified details remain pending
+## 状态
+- ZH: 主版
+- EN: Translation pending
+- TBD: 未确认信息保留空缺
