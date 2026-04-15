@@ -1,8 +1,8 @@
 # DM-MC01
 
 ## Overview
-- Translation pending.
-- Use [README.md](README.md) as the current main entry for this subtree.
+- This folder is the documentation entry for the DM-MC01 control board.
+- Materials are organized by manuals, schematics, 3D files, module notes, and examples.
 
 ## Documentation / Resources
 - [Manual/](说明书/)
@@ -13,12 +13,12 @@
 - [Examples/](例程/)
 - [Datasheets/](数据手册/)
 - [Customer Enclosure Files/](客户外壳文件/)
-- [MC_Board Pin Map](MC_Board管脚配置图.png)
+- [MC_Board Pin Map.png](MC_Board管脚配置图.png)
 
 ## Quick Start
-- Translation pending.
+- This folder does not define a separate quick-start flow.
 
 ## Status
 - EN: Translation pending
 - ZH: source material exists in this subtree
-- TBD: unverified details pending
+- TBD: unverified details remain pending
