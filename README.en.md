@@ -6,7 +6,7 @@
 
 ## Documentation / Resources
 - [USAGE.md](USAGE.md)
-- [Manual/](说明书/)
+- [Manual/](Manual/)
 - [Schematics/](原理图/)
 - [3D Files/](3D文件/)
 - [LCD Module/](LCD模块/)
