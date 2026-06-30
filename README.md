@@ -1,20 +1,20 @@
 # DM-MC01
 
-中文 | [EN](./README.en.md)
+[中文](./README.zh.md) | EN
 
-## 概述
+## Overview
 
-本仓库收录 DM-MC01 控制板对外资料。目录按客户查阅顺序保留真实资料，空占位目录不再保留。
+This repository contains public materials for the DM-MC01 control board. Only directories with real content are kept, and empty placeholder directories are removed.
 
-## 资料目录
+## Contents
 
-- [说明书/](说明书/) - 使用说明、数据手册和接口文档
-- [2D图纸/](2D图纸/) - 2D 图纸、管脚图、原理图或封装参考资料
-- [3D模型/](3D模型/) - STEP、STP、SolidWorks 或结构压缩包等 3D 模型资料
-- [例程/](例程/) - 控制板相关示例工程和参考代码
+- [说明书/](说明书/) - Manuals, datasheets, and interface documents
+- [2D图纸/](2D图纸/) - 2D drawings, pinout diagrams, schematics, and footprint references
+- [3D模型/](3D模型/) - STEP, STP, SolidWorks, and packaged 3D model files
+- [例程/](例程/) - Example projects and reference code for the control board
 
-## 维护规则
+## Maintenance Rules
 
-- 新增资料必须放入对应中文目录，不新增空目录。
-- 2D 图纸和 3D 模型直接放在根目录下的 2D图纸/、3D模型/。
-- 代码工程、第三方工程和已有压缩包保持原文件名，避免破坏客户使用路径。
+- Add new materials to the matching Chinese directory and do not add empty placeholder folders.
+- Keep 2D drawings and 3D models directly under 2D图纸/ and 3D模型/.
+- Keep code projects, third-party projects, and existing archives under their original file names to avoid breaking customer paths.
