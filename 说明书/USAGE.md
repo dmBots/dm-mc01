@@ -2,13 +2,13 @@
 
 ## 概述
 - 本文档收纳从 README 迁移出来的使用提示和查阅顺序。
-- 如果你只想找资料入口，回到 [README.md](README.md)。
+- 如果你只想找资料入口，回到 [../README.md](../README.md)。
 
 ## 使用流程
-1. 先查看 [说明书/](说明书/)。
-2. 需要接线或板卡识别时，查看 [原理图/](原理图/) 和 [MC_Board管脚配置图.png](MC_Board管脚配置图.png)。
-3. 需要模块资料时，按需打开 [LCD模块/](LCD模块/) 和 [IMU BMI088模块/](IMU BMI088模块/)。
-4. 需要上手验证时，先看 [例程/](例程/)；数据参数和封装细节可参考 [数据手册/](数据手册/) 与 [客户外壳文件/](客户外壳文件/)。
+1. 先查看本目录内的说明书 PDF。
+2. 需要接线或板卡识别时，查看 [图纸/2d/schematics/](../图纸/2d/schematics/) 和 [MC_Board管脚配置图.png](../图纸/2d/MC_Board管脚配置图.png)。
+3. 需要模块资料时，按需打开 [图纸/2d/lcd-module/](../图纸/2d/lcd-module/) 和 [图纸/2d/imu-bmi088-module/](../图纸/2d/imu-bmi088-module/)。
+4. 需要上手验证时，先看 [示例/](../示例/)；数据参数和封装细节可参考 [datasheets/](datasheets/) 与 [模型/3d/customer-enclosure/](../模型/3d/customer-enclosure/)。
 
 ## 备注
 - 本目录没有独立的安装脚本或环境初始化流程。
