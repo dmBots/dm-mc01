@@ -1,0 +1,70 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CMake: configure debug_GCC_STM32C593RGT6",
+            "type": "process",
+            "command": "cmake",
+            "args": [
+                "--preset",
+                "debug_GCC_STM32C593RGT6"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "CMake: build debug_GCC_STM32C593RGT6",
+            "type": "process",
+            "command": "cmake",
+            "dependsOn": "CMake: configure debug_GCC_STM32C593RGT6",
+            "args": [
+                "--build",
+                "--preset",
+                "debug_GCC_STM32C593RGT6",
+                "--parallel"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "pyOCD: list probes",
+            "type": "process",
+            "command": "pyocd",
+            "args": [
+                "list"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "pyOCD: flash STM32C593RGT6",
+            "type": "process",
+            "dependsOn": "CMake: build debug_GCC_STM32C593RGT6",
+            "command": "pyocd",
+            "args": [
+                "load",
+                "--config",
+                "${workspaceFolder}/pyocd.yaml",
+                "--format",
+                "elf",
+                "${workspaceFolder}/build/debug_GCC_STM32C593RGT6/mc01_rc_all.elf"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

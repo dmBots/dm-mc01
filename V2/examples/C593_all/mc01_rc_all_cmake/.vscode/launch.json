@@ -1,0 +1,52 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "DAPLink + pyOCD: 下载并调试",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "pyocd",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/build/debug_GCC_STM32C593RGT6/mc01_rc_all.elf",
+            "preLaunchTask": "CMake: build debug_GCC_STM32C593RGT6",
+            "serverpath": "pyocd",
+            "targetId": "stm32c593rgt6",
+            "cmsisPack": "${workspaceFolder}/tools/packs/STMicroelectronics.stm32c5xx_dfp.2.1.0.pack",
+            "serverArgs": [
+                "--config",
+                "${workspaceFolder}/pyocd.yaml",
+                "-O",
+                "reset_type=sysresetreq"
+            ],
+            "overrideGDBServerStartedRegex": "GDB server listening on port",
+            "overrideLaunchCommands": [
+                "load",
+                "set mem inaccessible-by-default off",
+                "set {unsigned int}0x40022000 = *(unsigned int *)0x40022000 & ~0x00010000",
+                "monitor reset halt",
+                "disable breakpoints",
+                "enable breakpoints"
+            ],
+            "overrideRestartCommands": [
+                "set mem inaccessible-by-default off",
+                "set {unsigned int}0x40022000 = *(unsigned int *)0x40022000 & ~0x00010000",
+                "monitor reset halt"
+            ],
+            "postRestartCommands": [
+                "disable breakpoints",
+                "enable breakpoints"
+            ],
+            "overrideResetCommands": [
+                "set mem inaccessible-by-default off",
+                "set {unsigned int}0x40022000 = *(unsigned int *)0x40022000 & ~0x00010000",
+                "monitor reset halt"
+            ],
+            "postResetCommands": [
+                "disable breakpoints",
+                "enable breakpoints"
+            ],
+            "runToEntryPoint": "main",
+            "showDevDebugOutput": "raw"
+        }
+    ]
+}

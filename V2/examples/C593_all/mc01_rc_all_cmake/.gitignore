@@ -1,0 +1,5 @@
+/build/
+/.venv/
+/CMakeUserPresets.json
+/tmp/
+/CMakePresets.json_bckp

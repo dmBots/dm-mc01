@@ -1,0 +1,6 @@
+pack:
+  - tools/packs/STMicroelectronics.stm32c5xx_dfp.2.1.0.pack
+target_override: stm32c593rgt6
+frequency: 1000000
+connect_mode: halt
+reset_type: sysresetreq

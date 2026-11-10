@@ -1,0 +1,14 @@
+add_library(${CMAKE_PROJECT_NAME}_bmi08x INTERFACE)
+
+target_include_directories(${CMAKE_PROJECT_NAME}_bmi08x INTERFACE
+  ${CMAKE_CURRENT_LIST_DIR}
+)
+
+target_sources(${CMAKE_PROJECT_NAME}_bmi08x INTERFACE
+  ${CMAKE_CURRENT_LIST_DIR}/bmi08a.c
+  ${CMAKE_CURRENT_LIST_DIR}/bmi08g.c
+  ${CMAKE_CURRENT_LIST_DIR}/bmi08xa.c
+  ${CMAKE_CURRENT_LIST_DIR}/bmi08.h
+  ${CMAKE_CURRENT_LIST_DIR}/bmi08_defs.h
+  ${CMAKE_CURRENT_LIST_DIR}/bmi08x.h
+)
